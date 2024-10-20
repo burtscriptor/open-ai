@@ -5,10 +5,11 @@ const removeChars = (data) => {
     if (typeof data === "string") {
     return data.replace(regex, "")
     } else {
-        console.log(typeof(data))
+        console.log(typeof(data));
+        //need to handle error
     }
 };
 
 module.exports = {
     removeChars
-}
+}:
